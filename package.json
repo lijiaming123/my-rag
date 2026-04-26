@@ -1,0 +1,26 @@
+{
+  "name": "my-rag",
+  "version": "1.0.0",
+  "description": "用于自己学习的rag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.0.30",
+    "@langchain/core": "^0.1.30",
+    "@langchain/openai": "^0.0.17",
+    "dotenv": "^17.4.2",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.0.200",
+    "openai": "^6.34.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
